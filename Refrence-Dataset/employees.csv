@@ -1,0 +1,12 @@
+| employee_id | name         | role               | primary_skill | secondary_skill  | experience_years | location  | status  | bench_days |
+| ----------- | ------------ | ------------------ | ------------- | ---------------- | ---------------- | --------- | ------- | ---------- |
+| E001        | Rahul Sharma | Data Analyst       | Python        | SQL              | 3                | Bangalore | Bench   | 25         |
+| E002        | Sneha Verma  | Data Scientist     | Python        | Machine Learning | 5                | Hyderabad | Project | 0          |
+| E003        | Ajay Kumar   | Backend Developer  | Java          | Spring Boot      | 4                | Pune      | Bench   | 18         |
+| E004        | Neha Gupta   | Data Engineer      | Python        | Spark            | 6                | Bangalore | Project | 0          |
+| E005        | Amit Patel   | DevOps Engineer    | AWS           | Docker           | 5                | Chennai   | Bench   | 30         |
+| E006        | Pooja Singh  | Data Analyst       | SQL           | Power BI         | 2                | Gurgaon   | Bench   | 15         |
+| E007        | Vikram Rao   | ML Engineer        | Python        | TensorFlow       | 7                | Hyderabad | Project | 0          |
+| E008        | Anjali Mehta | Frontend Developer | React         | JavaScript       | 3                | Pune      | Bench   | 10         |
+| E009        | Karan Shah   | Data Engineer      | SQL           | Hadoop           | 4                | Bangalore | Project | 0          |
+| E010        | Riya Kapoor  | Business Analyst   | Excel         | Power BI         | 3                | Gurgaon   | Bench   | 12         |

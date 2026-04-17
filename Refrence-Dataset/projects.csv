@@ -1,0 +1,7 @@
+| project_id | project_name           | required_skill | secondary_skill  | team_size | start_date | end_date   |
+| ---------- | ---------------------- | -------------- | ---------------- | --------- | ---------- | ---------- |
+| P001       | Sales Forecasting      | Python         | Machine Learning | 3         | 2025-01-10 | 2025-06-30 |
+| P002       | Customer Analytics     | SQL            | Power BI         | 2         | 2025-02-15 | 2025-07-30 |
+| P003       | Cloud Migration        | AWS            | Docker           | 4         | 2025-03-01 | 2025-09-15 |
+| P004       | Fraud Detection System | Python         | TensorFlow       | 3         | 2025-04-05 | 2025-10-10 |
+| P005       | E-commerce Backend     | Java           | Spring Boot      | 3         | 2025-03-20 | 2025-08-25 |

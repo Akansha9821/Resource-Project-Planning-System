@@ -1,0 +1,120 @@
+Employee Utilization KPIs (Core for your project)
+
+Q1: Utilization Rate
+What it shows: % of employees actively working vs idle (bench)
+
+Formula: Utilization Rate = (Employees with End Date filled / Total Employees) × 100
+
+Insight:
+Low value = high bench strength
+High value = efficient workforce usage
+
+Q2. Bench Strength Ratio
+What it shows: Employees currently not assigned to projects
+Logic:
+If End Date = NULL → likely on bench
+Bench Strength (%) = (Bench Employees / Total Employees) × 100
+
+3. Average Bench Duration
+What it shows: How long employees stay idle
+Formula:
+Bench Duration = Current Date – Last Project End Date
+
+
+2. Skill-Based KPIs (VERY IMPORTANT for your model)
+
+4. Skill Availability Index
+
+What it shows: How many employees have a specific skill
+Skill Availability = Count of employees with "Primary Skill = X"
+
+Helps in:
+
+Project allocation
+Skill demand mapping
+
+5. Skill Gap Ratio
+
+What it shows: mismatch between available vs required skills
+
+(Use survey/project requirement data)
+
+Skill Gap = Required Skill Count – Available Skill Count
+
+6. Multi-Skill Index
+What it shows: how versatile employees are
+Multi-Skill Score = Count of (Primary + Secondary + Top Skills)
+
+
+3. Experience-Based KPIs
+7. Experience Distribution
+
+Segment employees:
+
+0–1 years
+1–3 years
+3–5 years
+5+ years
+
+Helps in:
+
+Junior vs senior resource planning
+
+8. Average Experience per Skill
+Avg Experience (Skill X) = Avg(Experience_Years of employees with skill X)
+
+
+4. Resource Allocation KPIs
+9. Project Allocation Efficiency
+Allocation Efficiency = (Employees matched to relevant skill projects / Total allocated employees)
+
+10. Skill Match Score (VERY IMPORTANT )
+This is your core ML KPI
+Skill Match Score = (Matched Skills / Required Skills) × 100
+Example:
+
+Required: Python, SQL, AWS
+Employee has: Python, SQL
+→ Score = 2/3 = 66%
+
+5. Profile Completeness KPI
+11. Profile Completeness Score
+Score = Filled fields / Total fields
+Fields to consider:
+
+LinkedIn
+Summary
+Skills
+Education
+
+6. Geographic KPIs
+12. Location-wise Talent Distribution
+Employees per Location
+Helps in:
+
+Remote vs onsite planning
+
+7. Hiring / Attrition Proxy KPIs (if extended)
+13. Active Duration per Employee
+Duration = End Date – Start Date
+Indicates:
+
+Stability
+Project lifecycle
+
+8. Survey-Based KPIs (from your form)
+
+Using your survey fields:
+
+14. Department-wise Skill Distribution
+15. Experience vs Skill Gap
+16. Role vs Skill Alignment
+
+Predictive Bench Risk Score
+Use ML to predict:
+Probability(Employee going to bench)
+Based on:
+
+Skills
+Experience
+Past allocation
